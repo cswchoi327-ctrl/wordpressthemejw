@@ -1,22 +1,6 @@
 /*
-Theme Name: 지원금 스킨
-Theme URI: https://example.com
-Author: 아로스
-Author URI: https://aros100.com
-Description: 지원금 정보를 표시하는 워드프레스 테마입니다. 관리자 화면에서 카드를 추가/편집할 수 있습니다.
-Version: 1.0.0
-Requires at least: 5.0
-Tested up to: 6.4
-Requires PHP: 7.4
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: support-skin
-Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
-*/
-
-/*
  * 지원금 스킨 스타일시트
- * WordPress Theme
+ * Jekyll/GitHub Pages 용
  */
 
 /* 기본 스타일 */
@@ -31,10 +15,6 @@ body {
     background-color: #ffffff;
     padding-top: 120px;
     line-height: 1.6;
-}
-
-.support-main-wrapper {
-    width: 100%;
 }
 
 .support-container {
@@ -99,7 +79,7 @@ body {
 
 .tab-link.active {
     background: linear-gradient(135deg, #3182F6 0%, #1E6AD4 100%);
-    color: white !important;
+    color: white;
     font-weight: 600;
     box-shadow: 0 4px 12px rgba(49, 130, 246, 0.3);
 }
@@ -433,7 +413,7 @@ body {
     justify-content: center;
     gap: 10px;
     background: white;
-    color: #2563EB !important;
+    color: #2563EB;
     padding: 18px 40px;
     border-radius: 16px;
     font-size: 17px;
@@ -452,7 +432,6 @@ body {
 .hero-cta:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
-    color: #2563EB !important;
 }
 
 .cta-arrow {
@@ -616,4 +595,4 @@ body {
         font-size: 12px;
         padding: 8px 4px;
     }
-  }
+                                  }
